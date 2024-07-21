@@ -1,0 +1,4 @@
+4 digit 7 segment led display:
+Decimal pin is the last one in segment pins.
+Digit pins with resistor.
+

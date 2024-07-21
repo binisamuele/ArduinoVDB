@@ -1,7 +1,8 @@
-# 1 "C:\\Users\\samue\\Documents\\ArduinoProj\\ArduinoProj.ino"
-# 2 "C:\\Users\\samue\\Documents\\ArduinoProj\\ArduinoProj.ino" 2
-# 3 "C:\\Users\\samue\\Documents\\ArduinoProj\\ArduinoProj.ino" 2
+# 1 "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj\\ArduinoProj.ino"
+# 2 "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj\\ArduinoProj.ino" 2
+# 3 "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj\\ArduinoProj.ino" 2
 SevSeg sevseg; //Inizia un oggetto controller a sette segmenti
+
 
 
 const byte ROWS = 4; //four rows
@@ -13,8 +14,8 @@ char keys[ROWS][COLS] = {
   {'*','0','#','D'}
 };
 
-byte rowPins[ROWS] = {2, 3, 4, 5}; //connect to the row pinouts of the keypad
-byte colPins[COLS] = {6, 7, 8, 9}; //connect to the column pinouts of the keypad
+byte rowPins[ROWS] = {9,8,7,6}; //connect to the row pinouts of the keypad
+byte colPins[COLS] = {5,4,3,2}; //connect to the column pinouts of the keypad
 
 Keypad keypad = Keypad( ((char*)keys), rowPins, colPins, ROWS, COLS );
 
@@ -27,8 +28,8 @@ bool blinking = false;
 
 void setup(){
     byte numDigits = 4;
-    byte digitPins[] = {45, 43, 41, 39};
-    byte segmentPins[] = {52, 51, 29, 23, 22, 53, 27, 25};
+    byte digitPins[] = {53, 52, 51, 49};
+    byte segmentPins[] = {50, 35, 45, 47, 46, 48, 43, 44};
     bool resistorsOnSegments = 0;
 
     // variable above indicates that 4 resistors were placed on the digit pins.
@@ -56,7 +57,7 @@ void loop(){
       sevseg.setChars(currNum.c_str());
     }
   }
-  if (currNum == "1234" && !blinking) {
+  if (currNum == "6149" && !blinking) {
     blinking = true;
     blinkCount = 0;
     previousMillis = millis();
@@ -78,7 +79,7 @@ void loop(){
       blinkCount++;
       if (blinkCount >= 8) { // 8 intervals for 4 blinks (on and off each count as 1 interval)
         blinking = false;
-        currNum = "A1C2";
+        currNum = "A3C6";
         sevseg.setChars(currNum.c_str());
       }
     }

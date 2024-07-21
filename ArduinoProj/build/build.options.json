@@ -5,7 +5,7 @@
   "customBuildProperties": "",
   "fqbn": "arduino:avr:mega:cpu=atmega2560",
   "hardwareFolders": "C:\\Users\\samue\\AppData\\Local\\Arduino15\\packages",
-  "otherLibrariesFolders": "C:\\Users\\samue\\OneDrive\\Documenti\\Arduino\\libraries",
+  "otherLibrariesFolders": "C:\\Users\\samue\\Documents\\Arduino\\libraries",
   "runtime.ide.version": "10607",
-  "sketchLocation": "C:\\Users\\samue\\Documents\\ArduinoProj"
+  "sketchLocation": "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj"
 }

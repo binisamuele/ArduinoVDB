@@ -2,40 +2,40 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Users\\samue\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+    "Includepath": "C:\\Users\\samue\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\cores\\arduino"
   },
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "C:\\Users\\samue\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\mega"
+    "Includepath": "C:\\Users\\samue\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\variants\\mega"
   },
   {
-    "Sourcefile": "C:\\Users\\samue\\Documents\\ArduinoProj\\build\\sketch\\ArduinoProj.ino.cpp",
+    "Sourcefile": "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj\\build\\sketch\\ArduinoProj.ino.cpp",
     "Include": "Keypad.h",
-    "Includepath": "C:\\Users\\samue\\OneDrive\\Documenti\\Arduino\\libraries\\Keypad\\src"
+    "Includepath": "C:\\Users\\samue\\Documents\\Arduino\\libraries\\Keypad\\src"
   },
   {
-    "Sourcefile": "C:\\Users\\samue\\Documents\\ArduinoProj\\build\\sketch\\ArduinoProj.ino.cpp",
+    "Sourcefile": "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj\\build\\sketch\\ArduinoProj.ino.cpp",
     "Include": "SevSeg.h",
-    "Includepath": "C:\\Users\\samue\\OneDrive\\Documenti\\Arduino\\libraries\\SevSeg"
+    "Includepath": "C:\\Users\\samue\\Documents\\Arduino\\libraries\\SevSeg"
   },
   {
-    "Sourcefile": "C:\\Users\\samue\\Documents\\ArduinoProj\\build\\sketch\\ArduinoProj.ino.cpp",
+    "Sourcefile": "D:\\Documenti\\Github\\ArduinoVDB\\ArduinoProj\\build\\sketch\\ArduinoProj.ino.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\samue\\OneDrive\\Documenti\\Arduino\\libraries\\Keypad\\src\\Key.cpp",
+    "Sourcefile": "C:\\Users\\samue\\Documents\\Arduino\\libraries\\Keypad\\src\\Key.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\samue\\OneDrive\\Documenti\\Arduino\\libraries\\Keypad\\src\\Keypad.cpp",
+    "Sourcefile": "C:\\Users\\samue\\Documents\\Arduino\\libraries\\Keypad\\src\\Keypad.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\samue\\OneDrive\\Documenti\\Arduino\\libraries\\SevSeg\\SevSeg.cpp",
+    "Sourcefile": "C:\\Users\\samue\\Documents\\Arduino\\libraries\\SevSeg\\SevSeg.cpp",
     "Include": "",
     "Includepath": null
   }
