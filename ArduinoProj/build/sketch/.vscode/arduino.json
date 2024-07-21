@@ -1,0 +1,8 @@
+#line 1 "C:\\Users\\samue\\Documents\\ArduinoProj\\.vscode\\arduino.json"
+{
+    "port": "COM5",
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "sketch": "ArduinoProj.ino",
+    "output": "./build"
+}
